@@ -10,9 +10,9 @@ endif
 
 " set VimScript path
 if (g:os_type==0)
-	let $vim_script_path="$HOME/______Z/Dropbox/TemporaryNotes/Vim/VimScript"
+	let $vim_script_path="$VimScript"
 elseif (g:os_type==1)
-	let $vim_script_path="$HOME/______Z/Dropbox/TemporaryNotes/Vim/VimScript"
+	let $vim_script_path="$VimScript"
 endif
 
 
