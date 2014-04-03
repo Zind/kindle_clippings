@@ -19,7 +19,6 @@ endif
 " Kindle
 if (g:os_type==1)
 	command! KindleClippings	:tabf /media/Kindle/documents/My\ Clippings.txt
-	command! KindleUmount		:!sudo umount /media/Kindle
 endif
 command! KindleGeneral			:source $vim_script_path/kindle_clippings/kindle_general.vim
 command! KindleDictionary		:source $vim_script_path/kindle_clippings/kindle_dictionary.vim
